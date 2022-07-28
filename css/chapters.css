@@ -1,0 +1,31 @@
+img{
+    max-width: 100%;
+}
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+.sigcontent{
+    background-color: white;
+    padding: 40px;
+}
+
+section .row{
+    padding: 40px 0px;
+}
+section .row:hover{
+    background-color: whitesmoke;
+}
+
+#wieimg{
+    max-width: 80%;
+}
+
+#mttimg{
+    width: 110%;
+}
+
+.sigtitle{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

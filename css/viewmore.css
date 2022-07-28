@@ -1,0 +1,183 @@
+/* .flex {
+    margin: 0;
+    display: flex;
+    border: 5px solid #333;
+    margin-bottom: 2rem;
+  }
+
+.flex div:first-child {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.flex div:last-child {
+    margin: 2rem;
+    flex: 2;
+}
+
+.flex h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.flex p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.flex p:last-of-type {
+    margin-bottom: 0;
+}
+
+.flex:first-of-type div:first-child {
+    background-image: url("summer_school21.jpg");
+    background-size: cover;
+}
+
+@media all and (max-width: 600px) {
+    .flex div { flex: 1 !important; }
+}
+
+@media all and (max-width: 400px) {
+    .flex { flex-direction: column; } 
+    .flex div:first-child { min-height: 200px; }
+  } */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+
+body {
+  margin:  0;
+  font-family: Montserrat;
+}
+
+h1{
+    text-align: center;
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car{
+    display: flex;
+    max-width: 80%;
+    align-content:space-around;
+}
+
+.imgdiv{
+    padding: 1.5em 1.5em;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* border: 1mm green solid; */
+}
+
+.imgdiv > img{
+    max-height: 70vh;
+    /* border: 1mm red solid; */
+    /* width: 100%; */
+    /* width: auto; */
+}
+
+.para{  
+    padding: 1.5em 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* #venue .venue-gallery-container {
+    padding-right: 12px;
+  }
+  
+  #venue .venue-gallery {
+    overflow: hidden;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+  }
+  
+  #venue .venue-gallery img {
+    transition: all ease-in-out 0.4s;
+  }
+  
+  #venue .venue-gallery:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  } */
+
+#gallery {
+  padding: 60px;
+  overflow: hidden;
+}
+
+#gallery .owl-nav,
+#gallery .owl-dots {
+  text-align: center;
+}
+
+#gallery .owl-item {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+#gallery .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+#gallery .owl-dot.active {
+  background-color: #006699;
+}
+
+#gallery .gallery-carousel .owl-stage-outer {
+  overflow:hidden;
+}
+
+#gallery h2{
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+#gallery .gallery-carousel .center {
+  border: 6px solid #006699;
+  margin: -10px;
+  box-sizing:content-box;
+  padding: 4px;
+  background: #fff;
+  z-index: 1;
+}
+
+@media screen and (max-width: 900px) {
+    .car {
+        flex-direction: column;
+        max-width: 700px;
+    }
+
+    /* .imgdiv>img{
+        max-width: 100vw;
+    } */
+    .imgdiv > img{
+        max-width: 75%;
+        max-height: 100%;
+    }
+}
+
+/* .card{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    border: 1mm green solid;
+} */
+
+/* img{
+    max-height: 50%;
+    max-width: 50%;
+} */

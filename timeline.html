@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162398295-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-162398295-2');
+	</script>
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>IEEE Student Branch | DAIICT</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="./css/icofont.min.css" />
+	<link rel="stylesheet" href="./css/style.css" />
+	<link rel="stylesheet" href="./css/animate.css" />
+	<link rel="stylesheet" href="./css/copy.css" />
+	<link rel="stylesheet" href="./css/footer.css" />
+	<link rel="stylesheet" href="./css/timeline.css" />
+
+	<link rel="icon" href="./img/ieee.ico" />
+	<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+		rel="stylesheet" />
+
+	<style>
+		.collapsible {
+			background-color: #4573d1;
+			color: white;
+			cursor: pointer;
+			padding: 18px;
+			width: 100%;
+			border: none;
+			text-align: left;
+			outline: none;
+			font-size: 15px;
+		}
+
+		.active,
+		.collapsible:hover {
+			background-color: #587dc7;
+		}
+
+		.content1 {
+			padding: 0 18px;
+			display: none;
+			overflow: hidden;
+			background-color: #f1f1f1;
+		}
+	</style>
+
+	<style>
+		.tech-no {
+			display: none;
+			margin-top: 3rem;
+		}
+
+		/* The "show" class is added to the filtered elements */
+		.show {
+			display: block;
+		}
+
+		/* Style the buttons */
+		.btn {
+			border: none;
+			outline: none;
+			padding: 12px 16px;
+			background-color: white;
+			cursor: pointer;
+		}
+
+		.btn:hover {
+			background-color: rgba(103, 176, 209, 0.8);
+		}
+
+		.btn.active {
+			background-color: #fff;
+			color: black;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- ======= Header ======= -->
+	<button type="button" class="mobile-nav-toggle d-lg-none">
+		<i class="icofont-navigation-menu"></i>
+	</button>
+	<header id="header" class="fixed-top">
+		<div class="container d-flex">
+			<div class="logo mr-auto">
+				<h1 class="text-light">
+					<a href="index.html"><span><img src="./img/ieee.PNG" alt="" srcset="" /></span></a>
+				</h1>
+				<!-- Uncomment below if you prefer to use an image logo -->
+				<!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+			</div>
+
+			<nav class="nav-menu d-none d-lg-block">
+				<ul>
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./chapters.html">Chapters</a></li>
+					<li class="active"><a href="./timeline.html">Timeline</a></li>
+					<li><a href="./gallery.html">Gallery</a></li>
+					<li><a href="./team.html">EXECOMM</a></li>
+					<li><a href="./grantapp.html">Grant App</a></li>
+					<li><a href="./members.html">IEEE Members</a></li>
+					<li><a href="./contact.html">Contact</a></li>
+					<li><a href="./history.html">History</a></li>
+				</ul>
+			</nav>
+			<!-- .nav-menu -->
+		</div>
+	</header>
+	<!-- End Header -->
+
+	<br /><br /><br />
+	<h1 align="center">Timeline of IEEE SB DAIICT</h1>
+
+	<div class="technology">
+		<div class="container">
+			<div id="myBtnContainer">
+				<button class="btn active" onclick="filterSelection('2022')">Timeline 2022</button>
+				<button class="btn" onclick="filterSelection('2021')">Timeline 2021</button>
+				<button class="btn" onclick="filterSelection('2020')">Timeline 2020</button>
+				<button class="btn" onclick="filterSelection('2019')">Timeline 2019</button>
+
+			</div>
+
+			<div class="tech-no 2022">
+				<div class="tech-btm wow fadeInDown" data-wow-duration=".8s" data-wow-delay=".2s">
+					<h3 align = "center">Timeline 2022</h3>
+					<ul class="timeline" id="timelinelist">
+
+						<li>
+							<div class="direction-l">
+								<div class="flag-wrapper">
+									<span class="flag"> Basics of Python</span>
+									<span class=" time-wrapper">
+										<span class="time">8 June</span>
+									</span>
+								</div>
+								<div class="desc">
+									<p>
+										A hands-on interactive session to introduce attendees with fundamentals of
+										python programming using Google Colab.
+									</p>
+								</div>
+							</div>
+						</li>
+
+						<!-- Item 2 -->
+						<li>
+							<div class="direction-r">
+								<div class="flag-wrapper">
+									<span class="flag"> UX/UI and Basics of Designing</span>
+									<span class=" time-wrapper">
+										<span class="time">6 June</span>
+									</span>
+								</div>
+								<div class="desc">
+									<p>
+										A hands-on session which gave a basic idea of the components of UI/UX designing,
+										its basic principles and numerous techniques of designing.
+									</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="direction-l">
+								<div class="flag-wrapper">
+									<span class="flag"> Technologies of Human Spaceflight Project</span>
+									<span class=" time-wrapper">
+										<span class="time">20 March</span>
+									</span>
+								</div>
+								<div class="desc">
+									<p>
+										Session to provide an overview of the GAGANYAAN
+										project of ISRO, conducted by Mr. Anurag
+										Verma.
+									</p>
+								</div>
+							</div>
+						</li>
+						
+						<!-- Item 4 -->
+						<li>
+							<div class="direction-r">
+								<div class="flag-wrapper">
+									<span class="flag"> Session on Ethical Hacking, Bug Hunting, and more….</span>
+									<span class=" time-wrapper">
+										<span class="time">17 March</span>
+									</span>
+								</div>
+								<div class="desc">
+									<p>
+										A Session which provided an overview of information
+										security and its scope in the
+										future.
+									</p>
+								</div>
+							</div>
+						</li>
+						
+						<li>
+							<div class="direction-l">
+								<div class="flag-wrapper">
+									<span class="flag"> Hands-on Session on Git-Github</span>
+									<span class=" time-wrapper">
+										<span class="time">25 February</span>
+									</span>
+								</div>
+								<div class="desc">
+									<p>
+										Session designed to introduce participants to various
+										commands of Git-Github.
+									</p>
+								</div>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+
+
+		<div class="tech-no 2021">
+			<h3 align = "center">Timeline 2021</h3>
+			<div class="tech-btm wow fadeInDown" data-wow-duration=".8s" data-wow-delay=".2s">
+				<ul class="timeline" id="timelinelist">
+
+					<li>
+						<div class="direction-r">
+							<div class="flag-wrapper">
+								<span class="flag"> Everything on Cryptocurrency</span>
+								<span class=" time-wrapper">
+									<span class="time">3 December</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									A session on Cryptocurrency included deep insights of cryptocurrency, discussion on
+									cryptotrade and
+									cryptomarket and its scope in the future.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 7 -->
+					<!-- The Open Box with Dar Gai -->
+					<li>
+						<div class="direction-l">
+							<div class="flag-wrapper">
+								<span class="flag"> The Open Box with Dar Gai</span>
+								<span class=" time-wrapper">
+									<span class="time">28 November</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									The founder of Jugaad Motion Pictures, Dar Gai, (need to complete)
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 8 -->
+					<!-- Workshop on blockchain technology -->
+					<li>
+						<div class="direction-r">
+							<div class="flag-wrapper">
+								<span class="flag"> Workshop on blockchain technology</span>
+								<span class=" time-wrapper">
+									<span class="time">3 December</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									A workshop on blockchain technology, which was conducted by Dr. Sudeep Tanwar.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 9 -->
+					<!-- The Open Box with DA Alumni (Anushree Goenka, Akshat Saxena & Mohit Choudhary) -->
+					<li>
+						<div class="direction-l">
+							<div class="flag-wrapper">
+								<span class="flag"> The Open Box with DA Alumni (Anushree Goenka, Akshat Saxena & Mohit
+									Choudhary)</span>
+								<span class=" time-wrapper">
+									<span class="time">27 November</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									Former DA Alums Anushree Goenka, Akshat Saxena & Mohit Choudhary, who have achieved
+									wonders in their
+									professional fields, had a fruitful discussion about their college and their
+									respective industries.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 10 -->
+					<!-- The Open Box with Harshveer Jain -->
+					<li>
+						<div class="direction-r">
+							<div class="flag-wrapper">
+								<span class="flag"> The Open Box with Harshveer Jain</span>
+								<span class=" time-wrapper">
+									<span class="time">27 November</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									The founder of the Instagram page @storysellercomics, initiated a conversation about
+									the day-to-day
+									stereotypes via simple drawings and his masterful storytelling skills in the hopes
+									of bettering people.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 11 -->
+					<!-- The Open Box with Nischay AG -->
+					<li>
+						<div class="direction-l">
+							<div class="flag-wrapper">
+								<span class="flag"> The Open Box with Nischay AG</span>
+								<span class=" time-wrapper">
+									<span class="time">27 November</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									A fascinating and exciting discussion on the necessity of investment in today's
+									world, various
+									investment options and the current investment environment for GenZ, with Nishchay
+									AG, the Co-founder of
+									Jar, the leading startup.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 12 -->
+					<!-- The Future of Digital Transformation -->
+					<li>
+						<div class="direction-r">
+							<div class="flag-wrapper">
+								<span class="flag"> The Future of Digital Transformation</span>
+								<span class=" time-wrapper">
+									<span class="time">27 November</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									Talk on Enterprise Apps, Data Revolution, Product Development, and Workforce
+									Productivity etc. in
+									Driving Digital
+									Transformation. Organized by team i.Fest '21 in collaboration with Synoptek.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 13 -->
+					<!-- Tech Talk on High Throughput Satellites -->
+					<li>
+						<div class="direction-l">
+							<div class="flag-wrapper">
+								<span class="flag"> Tech Talk on High Throughput Satellites</span>
+								<span class=" time-wrapper">
+									<span class="time">October 23</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									Session focused on developments, specs, design and current trends of high-throughput
+									satellites.
+									Organized by
+									IEEE MTT-S DAIICT in collaboration with IEEE ComSoc Gujarat Section.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 14 -->
+					<!-- Arduino for Beginners! -->
+					<li>
+						<div class="direction-r">
+							<div class="flag-wrapper">
+								<span class="flag"> Arduino for Beginners!</span>
+								<span class=" time-wrapper">
+									<span class="time">October 22</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									An amazing explanatory session on Introduction to Arduino with Tinkercard. Organized
+									by IEEE IAS SBC
+									DAIICT in
+									association with Sapientury Pvt Ltd.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 15 -->
+					<li>
+						<div class="direction-l">
+							<div class="flag-wrapper">
+								<span class="flag"> Workshop on Game Development</span>
+								<span class=" time-wrapper">
+									<span class="time">October 9-10</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									A tremendous 4-hour Workshop on Game Development using Unity Game Engine organized
+									by WIE AG IEEE SB
+									DAIICT in
+									collaboration with GADS LLP.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 16 -->
+					<li>
+						<div class="direction-r">
+							<div class="flag-wrapper">
+								<span class="flag"> How to Finance Your Study Abroad Dream</span>
+								<span class=" time-wrapper">
+									<span class="time">October 6</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									Organized by i.Fest’21 in association with Yocket. Over 5000 students were guided
+									about Education
+									Management and
+									Study Abroad Counseling by the speaker, Mr. Siddharth Cuncoliencar.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 17 -->
+					<li>
+						<div class="direction-l">
+							<div class="flag-wrapper">
+								<span class="flag"> Cracking Top B-Schools in India and Abroad</span>
+								<span class=" time-wrapper">
+									<span class="time">September 30</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									Organized by Team i.Fest ’21 in collaboration with Endeavor Careers. In this talk,
+									Mr. Sazeal Shah
+									discussed how
+									to crack GMAT and CAT exams, which are very challenging.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 18 -->
+
+					<li>
+						<div class="direction-r">
+							<div class="flag-wrapper">
+								<span class="flag"> Rich Opportunities In The Semiconductor Industry</span>
+								<span class=" time-wrapper">
+									<span class="time">July 21</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									A session primarily concentrated on all of the available opportunities in the field
+									of electronics and
+									what the
+									Electronics Industry has to offer.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 19 -->
+
+					<li>
+						<div class="direction-l">
+							<div class="flag-wrapper">
+								<span class="flag"> Machine Learning Applications For Wireless Communications</span>
+								<span class=" time-wrapper">
+									<span class="time">June 19</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									A session by Mr. Saidhiraj Amuru on Machine Learning and its significance for
+									wireless communication in
+									today’s
+									world.
+								</p>
+							</div>
+						</div>
+					</li>
+
+
+					<!-- Item 20 -->
+					<li>
+						<div class="direction-r">
+							<div class="flag-wrapper">
+								<span class="flag"> Session On MLOps</span>
+								<span class=" time-wrapper">
+									<span class="time">June 16</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									A session on ML pipelines including its basic introduction and construction and
+									model deployment and its
+									process
+									by Mr. Sumit Saha and Mr. Kunal Yadav.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 21 -->
+					<!-- Changes In Various Industries And Job Opportunities Due To COVID-19
+							      Date:May 30, 2021
+							      Organized by: IEEE MTT-S SBC DAIICT in collaboration with Microsoft Students Technical Club (MSTC) DAIICT
+							      Dummy: A panel discussion on the impact of the COCID-19 pandemic on various fields and job opportunities. -->
+					<li>
+						<div class="direction-l">
+							<div class="flag-wrapper">
+								<span class="flag"> Changes In Various Industries And Job Opportunities Due To
+									COVID-19</span>
+								<span class=" time-wrapper">
+									<span class="time">May 30</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									A panel discussion on the impact of the COCID-19 pandemic on various fields and job
+									opportunities.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 22 -->
+					<!-- 4.  CICADA 3301: REINVENTED
+							      Date:May 28, 2021
+							      Organized by: IEEE MTT-S SBC DAIICT in collaboration with Microsoft Students Technical Club (MSTC) DAIICT
+							      Dummy: A 36-hours long virtual hackathon featuring various pre-hackathon and hackathon sessions by prominent speakers,
+							      as well as a virtual panel discussion with experts from various fields.  -->
+					<li>
+						<div class="direction-r">
+							<div class="flag-wrapper">
+								<span class="flag"> CICADA 3301: REINVENTED</span>
+								<span class=" time-wrapper">
+									<span class="time">May 28</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									A 36-hours long virtual hackathon featuring various pre-hackathon and hackathon
+									sessions by prominent
+									speakers,
+									as well as a virtual panel discussion with experts from various fields.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 23 -->
+					<!-- MTT-S session
+							      Date:May 23, 2021
+							      Organized by: IEEE MTT-S SBC of DAIICT in collaboration with Microsoft Students Technical Club (MSTC) DAIICT
+							      Dummy: Session on role of asteroid mining and In-Space Manufacturing (ism) in space exploration and colonization. -->
+					<li>
+						<div class="direction-l">
+							<div class="flag-wrapper">
+								<span class="flag"> MTT-S session</span>
+								<span class=" time-wrapper">
+									<span class="time">May 23</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									Session on role of asteroid mining and In-Space Manufacturing (ism) in space
+									exploration and
+									colonization.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 24 -->
+					<!-- Start Up In Electronics: Opportunities And Implementation
+							      Date:May 22, 2021
+							      Organized by: IEEE MTT-S SBC of DAIICT in collaboration with Microsoft Students Technical Club (MSTC) DAIICT
+							      Dummy: A session on how to launch startups in the electronics field, as well as an analysis of the implementation
+							      process and its future potential. -->
+					<li>
+						<div class="direction-r">
+							<div class="flag-wrapper">
+								<span class="flag"> Start Up In Electronics: Opportunities And Implementation</span>
+								<span class=" time-wrapper">
+									<span class="time">May 22</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									A session on how to launch startups in the electronics field, as well as an analysis
+									of the
+									implementation
+									process and its future potential.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<!-- Item 25 -->
+					<!-- Webinar And Group Discussion On Cloud Computing And Cloud Security:
+							      Date:Feb 8, 2021
+							      Organized by: WIE Affinity Group, IEEE SB DA-IICT
+							      Dummy: An introductory webinar on cloud computing and its importance in today's world followed by a group discussion on
+							      various topics connected to cloud computing. -->
+					<li>
+						<div class="direction-l">
+							<div class="flag-wrapper">
+								<span class="flag"> Webinar And Group Discussion On Cloud Computing And Cloud
+									Security</span>
+								<span class=" time-wrapper">
+									<span class="time">Feb 8</span>
+								</span>
+							</div>
+							<div class="desc">
+								<p>
+									An introductory webinar on cloud computing and its importance in today's world
+									followed by a group
+									discussion on
+									various topics connected to cloud computing.
+								</p>
+							</div>
+						</div>
+					</li>
+					<!-- Item 6 -->
+					<!-- Everything on Cryptocurrency -->
+
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+
+		<!-- 2020 Timeline -->
+		<div class="tech-no 2020">
+			<div class="tech-btm wow fadeInDown" data-wow-duration=".8s" data-wow-delay=".2s">
+				<h3 align ="center">Timeline 2020</h3>
+				<ul class="timeline" id="timelinelist">
+				<li>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="flag">Diwali Meet</span>
+							<span class="time-wrapper"><span class="time">14 November</span></span>
+						</div>
+						<div class="desc">
+							Annual Meet of IEEE SB DAIICT. New core was announced and duties
+							were handed over.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 2 -->
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">Winter School</span>
+							<span class="time-wrapper"><span class="time">5-13 December</span></span>
+						</div>
+						<div class="desc">
+							A Seminar on 5G Technology, which will revolutionize the world
+							around us.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 3 -->
+				<li>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="flag">SIGHT</span>
+							<span class="time-wrapper"><span class="time">October-December</span></span>
+						</div>
+						<div class="desc">
+							Visit to Punsari village and Blind People's Association to inspire
+							ideas for projects related to humaniarian aid.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 4 -->
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">MTT-S Session</span>
+							<span class="time-wrapper"><span class="time">13 October</span></span>
+						</div>
+						<div class="desc">
+							Technical Talk on microwave remote sensing applications by Dr. Shiv
+							Mohan and hands-on training session on CST Microwave Studio
+							Software.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 5 -->
+				<li>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="flag">DevFest</span>
+							<span class="time-wrapper"><span class="time">13 October</span></span>
+						</div>
+						<div class="desc">
+							Organized in association with GDG Gandhinagar and MSTC. Talks were
+							held on different Web and Mobile development tools and technologies.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 6 -->
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">Django Girls Workshop</span>
+							<span class="time-wrapper"><span class="time">13 October</span></span>
+						</div>
+						<div class="desc">
+							Organized in association with DSC, DAIICT. Mentors from different
+							places taught a group of 5 paticipants each. This was followed by
+							some technical talks.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 7 -->
+				<li>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="flag">Leadership Summit</span>
+							<span class="time-wrapper"><span class="time">12 October</span></span>
+						</div>
+						<div class="desc">
+							Networking with experts and hands-on workshop on Augmented Reality.
+							Organised by WIE Affinity Group of IEEE SB DAIICT.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 8 -->
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">i.Fest '19</span>
+							<span class="time-wrapper"><span class="time">11-13 October</span></span>
+						</div>
+						<div class="desc">
+							Annual Technical Festival of DAIICT organized by IEEE Student Branch
+							DAIICT.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 9 -->
+				<li>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="flag">3D Printing Workshop</span>
+							<span class="time-wrapper"><span class="time">1 October</span></span>
+						</div>
+						<div class="desc">
+							The workshop focused on working of a 3d printer followed by a live
+							printing demonstration of a design.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 10 -->
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">Web Designing Workshop</span>
+							<span class="time-wrapper"><span class="time">21-22 September</span></span>
+						</div>
+						<div class="desc">
+							Mr. Jinal Shah, the speaker of the workshop focused on areas of
+							frontend development using Angular JS and data management using
+							Firestore APIs.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 11 -->
+				<li>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="flag">Alumni Talk</span>
+							<span class="time-wrapper"><span class="time">11 September</span></span>
+						</div>
+						<div class="desc">
+							Talks by many of the succesful DAIICT Alumni
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 12 -->
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">Session by Endeavor</span>
+							<span class="time-wrapper"><span class="time">3 September</span></span>
+						</div>
+						<div class="desc">
+							Talk by Sazeal Shah on how to build your resume and the various
+							fields one can pursue after B.Tech.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 13 -->
+				<li>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="flag">MANUAL ROBOTICS WORKSHOP</span>
+							<span class="time-wrapper"><span class="time">29 August</span></span>
+						</div>
+						<div class="desc">
+							Over 300 students were taught the basics of circuits and components
+							needed to build a remote-controlled, working manual robot.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 14 -->
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">SIG Mobile Apps</span>
+							<span class="time-wrapper"><span class="time">August-September</span></span>
+						</div>
+						<div class="desc">
+							Participants were taught the basics of Java, Android Studio and
+							advanced topics like adapters, interfaces, database and networking
+							of API Class.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 15 -->
+				<li>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="flag">Semester Long Project</span>
+							<span class="time-wrapper"><span class="time">August-November</span></span>
+						</div>
+						<div class="desc">
+							8 Sessions which included discussion of ideas and implementation by
+							the participants with final presentation in front of professors
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 16 -->
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">SIG Embedded Sessions</span>
+							<span class="time-wrapper"><span class="time">August-September</span></span>
+						</div>
+						<div class="desc">
+							Briefing and Acquanting Freshers on IOT and embedded hardware.
+							Imparted knowledge on how to use microcontrollers such as Arduino
+							and Raspberry Pi
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 17 -->
+				<li>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="flag">IAS Day</span>
+							<span class="time-wrapper"><span class="time">20 June</span></span>
+						</div>
+						<div class="desc">
+							A celebration for the commemoration of the IEEE IAS DAIICT Student
+							Chapter of DAIICT.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 18 -->
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">Summer School</span>
+							<span class="time-wrapper"><span class="time">13-19 June</span></span>
+						</div>
+						<div class="desc">
+							Week long workshop on Android Development with specialization in
+							Blockchain Technology, wherein experts from the industry mentored
+							over 100 participants.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 19 -->
+				<li>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="flag">Synergy '19</span>
+							<span class="time-wrapper"><span class="time">Apr 6</span></span>
+						</div>
+						<div class="desc">
+							Organised by WIE Affinity Group of IEEE SB DAIICT. A contest was
+							held where the participants presented their hardware and software
+							projects.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 20 -->
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">TECHNIGHTS</span>
+							<span class="time-wrapper"><span class="time">March - April</span></span>
+						</div>
+						<div class="desc">
+							Tech Nights in the Girls Hostel at DAIICT. Encouraging female
+							participation in fields of Information and Communication Technology.
+						</div>
+					</div>
+				</li>
+				
+				<!-- Item 21 -->
+				<li>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="flag">Tachyon '19</span>
+							<span class="time-wrapper"><span class="time">29-31 Mar '19</span></span>
+						</div>
+						<div class="desc">
+							National conclave consisting of talks on blockchain, artificial
+							intelligence, machine intelligence, 5G, cloud computing and an
+							industrial visit.
+						</div>
+					</div>
+				</li>
+
+					
+			</div>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+
+	</ul>
+	</div>
+	<div class="clearfix"></div>
+	</div>
+	<div class="tech-no 2019">
+		<div class="tech-btm wow fadeInDown" data-wow-duration=".8s" data-wow-delay=".2s">
+			<h3 align = "center">Timeline 2019</h3>
+			<ul class="timeline" id="timelinelist">
+
+				
+		</ul>
+	</div>
+	<div class="clearfix"></div>
+
+	</div>
+	</div>
+
+	<!-- Footer  -->
+	<div class="footer wow fadeInDown" id="sitemap">
+		<div class="container row justify-content-center text-center">
+			<div class="col-md-4 footer-left">
+				<h4 class="text-center">Site Map</h4>
+
+				<div class="mid-btm">
+					<p>
+						<a href="https://www.daiict.ac.in" target="_blank">About DAIICT</a>
+						<br /><a href="https://www.ieee.org" target="_blank">About IEEE</a>
+						<!-- <br />
+              <a href="#popup3">Region 10</a> -->
+						<br /><a href="index.html" target="_blank">IEEE SB DAIICT</a>
+						<br />
+						<a href="https://ieeegujaratsection.org" target="_blank">IEEE Gujarat Section</a>
+						<br /><a href="team.html" target="_blank">Branch Execomm</a>
+						<!-- <br /><a href="#popup7">Bylaws</a> -->
+					</p>
+				</div>
+			</div>
+
+			<div class="col-md-4 footer-left" style="margin-bottom: 35px;">
+				<h4>DAIICT</h4>
+				<p></p>
+				<a href="http://www.daiict.ac.in" target="_blank">
+					<img src="./img/dalogo.png" class="img-responsive1" width="162px" height="156px" /></a>
+			</div>
+
+			<div class="col-md-4 footer-right">
+				<h4>Other Links</h4>
+				<p>
+					<a href="http://ieee.daiict.ac.in/ss21/" target="_blank">Summer School 2021</a>
+					<br /><a href="http://ifest.daiict.ac.in/" target="_blank">i.Fest 2020</a>
+					<br /><a href="http://ias.daiict.ac.in/" target="_blank">IAS</a>
+					<br /><a href="https://wie.ieee.org" target="_blank">WIE</a>
+					<br /><a href="https://www.mtt.org/" target="_blank">MTT-S</a>
+					<br /><a href="chapters.html" target="_blank">SIG Embedded</a>
+					<br /><a href="chapters.html" target="_blank">SIG Mobile Apps</a>
+					<br /><a href="chapters.html" target="_blank">SIG Machine Intelligence</a>
+					<br />
+					<a href="https://youtube.com/user/ieeesbdaiict" target="_blank"><i
+							class="fa fa-youtube square fa-lg"></i></a>&nbsp&nbsp&nbsp&nbsp
+					<a href="https://www.facebook.com/ieeesbdaiict/" target="_blank"><i
+							class="fa fa-facebook-square fa-lg"></i></a>&nbsp&nbsp&nbsp&nbsp
+					<a href="mailto:ieee@daiict.ac.in"><i class="fa fa-envelope-o fa-lg"></i></a>&nbsp&nbsp&nbsp&nbsp
+					<a href="https://www.linkedin.com/company/ieee-student-branch-daiict/" target="_blank"><i
+							class="fa fa-linkedin square fa-lg"></i></a>&nbsp&nbsp&nbsp&nbsp
+					<a href="https://instagram.com/i.fest?utm_medium=copy_link" target="_blank"><i
+							class="fa fa-instagram square fa-lg"></i></a>
+				</p>
+
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+	<div class="copyright wow fadeInDown" data-wow-duration=".8s" data-wow-delay=".2s">
+		<div class="container">
+			<p>
+				© 2021 IEEE SB DAIICT. All rights reserved | Designed by
+				<a style="color: white;" href="https://github.com/AjaysinhRajput2802" target="_blank">Ajaysinh
+					Rajput</a> , <a style="color: white;" href="https://github.com/201901407" target="_blank">Darshil
+					Parekh</a> and <a style="color: white;" href="https://github.com/akshitajindal"
+					target="_blank">Akshita Jindal</a> , IEEE SB, DA-IICT
+			</p>
+		</div>
+	</div>
+
+	<!-- <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+	<script src="./js/copy.js"></script>
+	<script src="./js/script.js"></script>
+	<script src="./js/easing.js"></script>
+
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+	</script>
+
+	<script>
+		filterSelection("all")
+		function filterSelection(c) {
+			var x, i;
+			x = document.getElementsByClassName("tech-no");
+			if (c == "all") c = "";
+			for (i = 0; i < x.length; i++) {
+				w3RemoveClass(x[i], "show");
+				if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+			}
+		}
+
+		function w3AddClass(element, name) {
+			var i, arr1, arr2;
+			arr1 = element.className.split(" ");
+			arr2 = name.split(" ");
+			for (i = 0; i < arr2.length; i++) {
+				if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+			}
+		}
+
+		function w3RemoveClass(element, name) {
+			var i, arr1, arr2;
+			arr1 = element.className.split(" ");
+			arr2 = name.split(" ");
+			for (i = 0; i < arr2.length; i++) {
+				while (arr1.indexOf(arr2[i]) > -1) {
+					arr1.splice(arr1.indexOf(arr2[i]), 1);
+				}
+			}
+			element.className = arr1.join(" ");
+		}
+
+
+		// Add active class to the current button (highlight it)
+		var btnContainer = document.getElementById("myBtnContainer");
+		var btns = btnContainer.getElementsByClassName("btn");
+		for (var i = 0; i < btns.length; i++) {
+			btns[i].addEventListener("click", function () {
+				var current = document.getElementsByClassName("active");
+				current[0].className = current[0].className.replace(" active", "");
+				this.className += " active";
+			});
+		}
+
+		// this code opens 2020 year from list by default
+		window.addEventListener('load', () => {
+			filterSelection('2022');
+		});
+	</script>
+
+</body>
+
+</html>

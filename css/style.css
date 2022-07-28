@@ -1,0 +1,151 @@
+.sample {
+  min-height: 100vh;
+  background-color: lightcyan;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  background-color: rgba(243, 243, 243, 0.4);
+  background: url("../img/cool-background.png") fixed center center;
+}
+
+a {
+  color: #67b0d1;
+}
+
+a:hover {
+  color: #8ec4dd;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/* <!-- ======= Join IEEE Section ======= --> */
+.joinieee {
+  align-content: center;
+  text-align: center;
+}
+.joinieee .col,
+.right-achievements,
+.whyjoin {
+  background-color: white;
+}
+
+.whyjoin {
+  /* max-width: 100%; */
+  width: 140% !important;
+}
+
+.right-achievements {
+  max-width: 60%;
+  margin-left: auto;
+}
+
+.padder1 {
+  max-width: 0px !important;
+}
+
+/* End Join IEEE */
+
+/* Summer school section */
+#summerschool {
+  max-width: 100%;
+  overflow: hidden;
+}
+canvas {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+#home {
+  max-width: 100%;
+  min-height: 100vh;
+  color: white;
+  margin-top: -60px;
+  font-size: 40px;
+}
+.home_topic {
+  max-width: 100%;
+  font-size: 60px;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  #team {
+    margin: auto 4.3vw;
+  }
+}
+
+/* end of Summer school  */
+.backtotop {
+  font-size: 36px;
+  display: inline-block;
+  padding: 0px 0;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  /* border: 2px solid #CEA2FD; */
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  /* color: #CEA2FD; */
+  color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+
+  position: fixed;
+  bottom: 0.7em;
+  right: 1em;
+  z-index: 5;
+}
+.home_title {
+  max-width: 100%;
+  padding-top: 3.7%;
+  font-size: 70px;
+  color: white;
+  margin-top: -700px;
+}
+.small_span {
+  max-width: 100%;
+  font-size: 20px;
+}
+#registerbtn{
+  background-color: #1c92d2;
+  padding: 0.8rem;
+  color: white;
+  font-size: 2.4rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  border: #1c92d2 solid 0.4rem;
+  border-radius: 2rem;
+}
+#registerbtn:hover{
+  background-color: rgb(8, 46, 116);
+  border: rgb(8, 46, 116) solid 0.4rem;
+  color: white;
+}
+
+/* Webinars */
+.webinars-container {
+  margin-top: 50px;
+}
+#webinarsection {
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,91,0.2623249983587185) 20%, rgba(0,212,255,1) 100%); */
+  /* background: url("../img/webinar-back1-mini.jpg") fixed center; */
+  /* background: linear-gradient(rgba(103, 176, 209, 0.281), rgba(103, 176, 209, 0.7)); */
+  background: #1c92d2, url("../img/webinar-back1-mini.jpg");  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d254), url("../img/webinar-back1-mini.jpg") fixed center;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f2fcfe, #1c92d254), url("../img/webinar-back1-mini.jpg") fixed center; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* End of webinars */
